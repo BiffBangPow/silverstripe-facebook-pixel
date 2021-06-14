@@ -1,0 +1,11 @@
+---
+Name: silverstripe-facebook-pixel
+---
+
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - BiffBangPow\FacebookPixel\Extension\SiteConfigFacebookPixelExtension
+
+Page:
+  extensions:
+    - BiffBangPow\FacebookPixel\Extension\PageFacebookPixelExtension
